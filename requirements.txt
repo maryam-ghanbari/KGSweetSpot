@@ -1,0 +1,6 @@
+networkx==2.5
+transformers==3.4.0
+numpy==1.26.4
+gensim
+nltk
+spacy
