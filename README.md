@@ -33,6 +33,8 @@ CUDA_VISIBLE_DEVICES=0 python ./utils/infer_t5.py \
   --model-type google/flan-t5-small \
   --input-path ./knowledge/concept_net.dev.csqa.json
 
+---
+
 Overview
 
 preprocess.py prepares data and grounds question/answer concepts to ConceptNet.
