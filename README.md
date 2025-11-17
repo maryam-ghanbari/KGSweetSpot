@@ -8,7 +8,7 @@ It studies how different aspects of knowledge integration—**relevance, extract
 
 ---
 
-## 🔧 Setup & Usage
+## Setup & Usage
 
 ```bash
 # 1. Install dependencies
@@ -35,13 +35,13 @@ CUDA_VISIBLE_DEVICES=0 python ./utils/infer_t5.py \
 
 ```
 
-Overview
+## Overview
 
-preprocess.py prepares data and grounds question/answer concepts to ConceptNet.
+- preprocess.py prepares data and grounds question/answer concepts to ConceptNet.
 
-get_knowledge.py extracts subgraphs and converts them into triple or path-based text.
+- get_knowledge.py extracts subgraphs and converts them into triple or path-based text.
 
-infer_t5.py runs inference using a T5 model and non-T5 models like Llama and Mistral and evaluates reasoning accuracy.
+- infer_t5.py runs inference using a T5 model and non-T5 models like Llama and Mistral and evaluates reasoning accuracy.
 
 This setup allows analyzing how different knowledge integration factors influence model reasoning.
 
