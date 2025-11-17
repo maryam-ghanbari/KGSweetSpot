@@ -45,6 +45,6 @@ CUDA_VISIBLE_DEVICES=0 python ./utils/infer_t5.py \
 
 This setup allows analyzing how different knowledge integration factors influence model reasoning.
 
-Parts of the preprocessing and subgraph extraction pipeline are adapted from
-QA-GNN (Yasunaga et al., NAACL 2021)
+Parts of the preprocessing and subgraph extraction pipeline are adapted from  
+[QA-GNN (Yasunaga et al., NAACL 2021)](https://github.com/michiyasunaga/qagnn).
 .
