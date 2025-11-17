@@ -32,7 +32,7 @@ CUDA_VISIBLE_DEVICES=0 python ./utils/infer_t5.py \
   --task csqa \
   --model-type google/flan-t5-small \
   --input-path ./knowledge/concept_net.dev.csqa.json
-
+```
 ---
 
 Overview
